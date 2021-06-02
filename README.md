@@ -1,0 +1,1 @@
+# about a simple website of my practice about html css javascript.
