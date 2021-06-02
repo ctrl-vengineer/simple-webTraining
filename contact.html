@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>联系我们</title>
+  <script src="scripts/modernizr-1.6.min.js"></script>
+  <link rel="stylesheet" media="screen"  type="text/css" href="./styles/bacis.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.gif" alt="Jay Skript and the Domsters" />
+    <nav>
+      <ul>
+        <li><a href="index.html"title="index">网站主页</a></li>
+        <li><a href="about.html"title="about">关于我们</a></li>
+        <li><a href="photos.html" title="photos">精美照片</a></li>
+        <li><a href="live.html" title="live">乐队日程</a></li>
+        <li><a href="contact.html" title="contact">联系方式</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <h1>联系我们</h1>
+    <form method="post" action="submit.html">
+      <fieldset>
+        <p>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" placeholder="姓名" required="required" />
+        </p>
+        <p>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" placeholder="邮箱地址" required="required" />
+        </p>
+        <p>
+         <label for="message">Message:</label>
+         <textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="在这写你要发送的消息."></textarea>
+        </p>
+        <input type="submit" value="发送" />
+       </fieldset>
+    </form>
+      </article>
+  <script src="./scripts/global.js"></script>
+</body>
+</html>
